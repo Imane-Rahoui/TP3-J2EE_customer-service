@@ -1,0 +1,12 @@
+actuator ne fournit pas ts les endpoints 
+alors :
+management.endpoints.web.exposure.include=*
+
+// permet de voir les beans que spring demarre au démarrage // bzff
+exp les var d'env http://localhost:8082/actuator/env 
+
+ACTUATOR PERMET DE VOIR LA SANTE DU MICRO SERV MS FAUT PAS TJRS METTRE * POUR NE PAS LE CHARGER AVEC DES TRUCS UNITILES
+
+management.endpoints.web.exposure.include= SPECIFIER ICI ACH BRITI
+
+PAUSE DAKIKA 15
